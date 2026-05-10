@@ -1,0 +1,40 @@
+Task 2: Breadth First Search
+
+Graph:
+A: C B D
+B: A C E G
+C: A B D
+D: C A
+E: G F B
+F: G E
+G: F B
+
+Starting vertex: A
+
+BFS Traversal Trace:
+
+1. Visit A
+   Queue: C, B, D
+
+2. Visit C
+   Queue: B, D
+
+3. Visit B
+   Add E and G
+   Queue: D, E, G
+
+4. Visit D
+   Queue: E, G
+
+5. Visit E
+   Add F
+   Queue: G, F
+
+6. Visit G
+   Queue: F
+
+7. Visit F
+   Queue: empty
+
+Final BFS Order:
+A → C → B → D → E → G → F
