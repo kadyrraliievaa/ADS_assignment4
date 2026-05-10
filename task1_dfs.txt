@@ -1,0 +1,27 @@
+Task 1: Depth First Search
+
+Graph:
+A: C B D
+B: A C E G
+C: A B D
+D: C A
+E: G F B
+F: G E
+G: F B
+
+Starting vertex: A
+
+DFS Traversal Trace:
+
+1. Visit A
+2. From A go to C
+3. From C go to B
+4. From B go to E
+5. From E go to G
+6. From G go to F
+7. Backtrack to G, E, B
+8. Backtrack to C
+9. From C go to D
+
+Final DFS Order:
+A → C → B → E → G → F → D
