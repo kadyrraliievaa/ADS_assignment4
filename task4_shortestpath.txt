@@ -1,0 +1,29 @@
+Task 4: Shortest Path
+
+Road distances:
+
+Glasgow → Stirling = 50
+Glasgow → Edinburgh = 70
+Stirling → Perth = 40
+Stirling → Edinburgh = 50
+Perth → Edinburgh = 100
+Perth → Dundee = 60
+
+Goal:
+Find the shortest path from Edinburgh to Dundee.
+
+Possible Paths:
+
+1. Edinburgh → Perth → Dundee
+Distance:
+100 + 60 = 160
+
+2. Edinburgh → Stirling → Perth → Dundee
+Distance:
+50 + 40 + 60 = 150
+
+Shortest Path:
+Edinburgh → Stirling → Perth → Dundee
+
+Total Distance:
+150
